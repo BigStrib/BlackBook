@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <!-- This tells the browser to redirect to the PDF after 0 seconds -->
     <meta http-equiv="refresh" content="0; url='https://drive.google.com/file/d/1Cx_U6NhA_6OBfoAnHQyz9pCoiahtPxBY/view?usp=sharing'" />
+    <script type="text/javascript">
+        // Using replace() prevents the 'back button' loop
+        window.location.replace("https://drive.google.com/file/d/1Cx_U6NhA_6OBfoAnHQyz9pCoiahtPxBY/view?usp=sharing");
+    </script>
+    <title>Redirecting...</title>
   </head>
   <body>
-    <p>Loading PDF... <a href="https://drive.google.com/file/d/1Cx_U6NhA_6OBfoAnHQyz9pCoiahtPxBY/view?usp=sharing">Click here if it doesn't load.</a></p>
+    <p>Loading PDF... <a href="https://drive.google.com/file/d/1Cx_U6NhA_6OBfoAnHQyz9pCoiahtPxBY/view?usp=sharing">Click here if you are not redirected.</a></p>
   </body>
 </html>
